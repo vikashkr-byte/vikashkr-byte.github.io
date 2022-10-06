@@ -58,13 +58,14 @@ const Navbar = () => {
         <Box display={["flex", "flex", "none", "none", "none"]}>
           <Menu>
             <MenuButton
-              bgColor="#1A2636"
-              _hover={{ bgColor: "rgb(191,212,227)", color: "#1A2636" }}
+              bgColor={theme==="dark"?"#1A2636":"rgb(201,178,134)"}
+              _hover={theme==="dark"?{ bgColor: "rgb(191,212,227)", color: "#1A2636" }:{  color: "rgb(201,178,134)",
+              backgroundColor: "whitesmoke"}}
               borderRadius="5px"
             >
               <HiMenu size="35px" px="5px" />
             </MenuButton>
-            <MenuList bgColor="rgb(191,212,227)" color="#1A2636">
+            <MenuList bgColor={theme==="dark"?"rgb(191,212,227)":""}color={theme==="dark"?"#1A2636":"rgb(201,178,134)"}>
               {links.map((linkitem2) => (
                 <MenuItem fontWeight={"700"} key={linkitem2.path}>
                   <NavLink to={linkitem2.path} >{linkitem2.title}</NavLink>
