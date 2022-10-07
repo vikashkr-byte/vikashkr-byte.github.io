@@ -33,7 +33,7 @@ const links = [
   },
   {
     path: "/contact",
-    title: "Contact Us",
+    title: "Contact",
   },
 ];
 const Navbar = () => {
