@@ -34,7 +34,11 @@ const links = [
   {
     path: "/contact",
     title: "Contact",
-  },
+  }
+  // {
+  //   path: "",
+  //   title: "Resume",
+  // },
 ];
 const Navbar = () => {
   const { theme, updateTheme } = useContext(ThemeProContext);
@@ -89,10 +93,12 @@ const Navbar = () => {
               end
               key={item.title}
               to={item.path}
+              
             >
               {item.title}
             </NavLink>
           ))}
+     <a className="linkslist" href="https://drive.google.com/file/d/1H0x2pYUrhaZ0cZEvYve7qFtlcku3LoZx/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Resume</a>
         </ButtonGroup>
       ) : (
         <ButtonGroup gap="2" display={["none", "none", "flex", "flex", "flex"]}>
@@ -114,6 +120,7 @@ const Navbar = () => {
               {item.title}
             </NavLink>
           ))}
+            <a className="linkslist" href="https://drive.google.com/file/d/1H0x2pYUrhaZ0cZEvYve7qFtlcku3LoZx/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Resume</a>
         </ButtonGroup>
       )}
       <ButtonGroup>
