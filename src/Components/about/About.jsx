@@ -51,13 +51,7 @@ console.log('theme:', theme)
           Stack. I'm also exposed to firebase, nextjs, typescript, socket.io,
           docker, electron, Chakra UI, etc.
         </p>
-        <div className="a-award">
-          <img src={JS_logo} alt="js_logo" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title"> JavaScript</h4>
-            <p className="a-award-desc">Brandon Eike</p>
-          </div>
-        </div>
+   
       </div>
     </div>
   );

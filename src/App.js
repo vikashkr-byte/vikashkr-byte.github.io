@@ -10,6 +10,7 @@ import About from './Components/about/About';
 import ProductList from './Components/productList/ProductList';
 import Contact_me from './Components/contact_me/Contact_me';
 import Skills from './Components/skills/Skills';
+import Tools from './Components/tools/Tools';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Intro />
       <About />
       <Skills />
+      <Tools/>
       <GitHub_Calender />
       <Stats />
       <ProductList />

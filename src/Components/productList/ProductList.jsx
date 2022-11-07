@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import Product from "../product/Product";
 import "./ProductList.css";
+import Product from "../product/Product";
 import Zappos from "../../img/zappos_long_screenshot.png";
 import Sepora from "../../img/sepora_india_long_screenshot.png";
 import Zee5 from "../../img/zee_5_long_screenshot.png";
@@ -146,7 +146,7 @@ const ProductList = () => {
      darkmode=false
     }
   return (
-    <div className="pl" style={darkmode?{backgroundColor:darkBackGround,color:"rgb(191,212,227)"}:{backgroundColor:lightBackGround,color:darkBackGround}}>
+    <div className="plc" style={darkmode?{backgroundColor:darkBackGround,color:"rgb(191,212,227)"}:{backgroundColor:lightBackGround,color:darkBackGround}}>
       <div className="pl-texts">
         <h1 className="pl-title">Explore, Learn & Create.</h1>
         <p className="pl-desc">

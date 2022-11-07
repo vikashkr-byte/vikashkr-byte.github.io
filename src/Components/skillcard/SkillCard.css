@@ -1,0 +1,18 @@
+.sc{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.sc-img-box{
+    width: 90px;
+margin: auto;
+padding: 5px;
+}
+.sc-images{
+    width: 100%;
+}
+.sc-texts{
+
+color: rgb(26,38,54);
+font-weight: 700;
+}
