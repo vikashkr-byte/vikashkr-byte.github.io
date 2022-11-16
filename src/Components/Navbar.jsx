@@ -50,7 +50,9 @@ const Navbar = () => {
       bgColor={theme === "dark" ? "#1A2636" : "rgb(201,178,134)"}
       h="60px"
       color={theme === "dark" ? "rgb(191,212,227)" : "whitesmoke"}
-      position="sticky"
+      pos="sticky"
+      top="0px"
+      zIndex={"1000"}
     >
       <Box px="15px">
         <Image
