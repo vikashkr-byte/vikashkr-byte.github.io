@@ -23,7 +23,7 @@ const Product = ({
   }
   console.log("project_details:", project_details);
   return (
-    <div className="p">
+    <div className="p" key={image} >
       <div className="p-wrapper">
         <div className="p-browser">
           <div className="p-circle red" back></div>
