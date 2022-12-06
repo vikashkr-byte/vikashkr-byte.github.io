@@ -60,7 +60,7 @@ const Tools = () => {
     
       <Grid templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(5, 1fr)"]} gap={6} className="pl-list">
         {toolStack.map((item) => (
-          <GridItem w="100%" h="50%">
+          <GridItem w="50%" h="50%">
             <ToolCard key={item.name} name={item.name} logo={item.logo} />
           </GridItem>
         ))}

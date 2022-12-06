@@ -52,15 +52,27 @@ const Skills = () => {
           This section displays skills that I have acquired.
         </p>
       </div>
-      
-        <Grid templateColumns="repeat(5, 1fr)" gap={6} className="pl-list">
+      <Grid templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(5, 1fr)"]} gap={6} className="pl-list">
+        {techStack.map((item) => (
+          <div>
+
+          <GridItem w="50%" h="50%">
+            <SkillCard key={item.name} name={item.name} logo={item.logo} />
+          </GridItem>
+          </div>
+        ))}
+      </Grid>
+        {/* <Grid templateColumns={["repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)","repeat(5, 1fr)"]} gap={2} className="pl-list" alignContent={"center"} h="auto" >
           {techStack.map((item) => (
-            <GridItem w="100%" h="50%">
+            <div className="pl_item_box"  >
+
+            <GridItem w="50%" h="100%"  bgColor={"red"} >
               <SkillCard key={item.name} name={item.name} logo={item.logo} />
             </GridItem>
+            </div>
           ))}
         </Grid>
-     
+      */}
     </div>
   );
 };

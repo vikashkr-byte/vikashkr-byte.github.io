@@ -1,6 +1,6 @@
 import { Box, Image, Stack } from "@chakra-ui/react";
 import React, { useContext } from "react";
-import Navbar from "../Components/Navbar";
+
 import { ThemeProContext } from "../Contexts/ThemeContext";
 
 const Home = () => {

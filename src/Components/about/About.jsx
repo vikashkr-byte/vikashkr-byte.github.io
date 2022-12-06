@@ -51,7 +51,9 @@ console.log('theme:', theme)
           Stack. I'm also exposed to firebase, nextjs, typescript, socket.io,
           docker, electron, Chakra UI, etc.
         </p>
-   
+   <div className="a-right-resume-button">
+    <button>Resume</button>
+   </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   height: 130vh;
-  
+  overflow: scroll;
 }
 
 .pl-texts {
