@@ -101,7 +101,7 @@ const Navbar = () => {
               {item.title}
             </NavLink>
           ))}
-     <a className="linkslist" href="https://drive.google.com/file/d/1H0x2pYUrhaZ0cZEvYve7qFtlcku3LoZx/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Resume</a>
+     <a className="linkslist" href="https://drive.google.com/file/d/1mfCq8qSX0-Km47RVuNzM0SeQN1Ts_1Dn/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Resume</a>
         </ButtonGroup>
       ) : (
         <ButtonGroup gap="2" display={["none", "none", "flex", "flex", "flex"]}>

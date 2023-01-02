@@ -38,15 +38,12 @@ const Intro = () => {
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Life Long Learner</div>
-              <div className="i-title-item">Communicator</div>
-              <div className="i-title-item">Content Creator</div>
+
             </div>
           </div>
           <p className="i-desc">
-            Hello, I'm Vikash, Web Developer by day and a learner by night. By
-            academics, I'm a civil engineer. I got exposed to coding when I was
-            working as a site engineer.
-            {/* It was love at first sight. Since then, I've worked in many odd jobs to learn coding. I was lucky enough to stumble upon Masai School that helped me with training and direction. When you study at Masai School, it goes without saying that only hardwork won't be enough. You'll have to develope the right mentality, the right attitude and willingness give your 200% and go above and beyond to find answers and the right questions. During this course at Masai School, I was able to learn HTML, CSS and JavaScript, the building blocks. In later units, I learnt and became proficient with React, Git, Github, MongoDB, Express, Redux, and Node js, the MERN Stack. I'm also exposed to firebase, nextjs, typescript, socket.io, docker, electron, Chakra UI, etc.  */}
+            Hello, I'm Vikash, Web Developer by day and a learner by night.
+         
           </p>
           <a
             href={
