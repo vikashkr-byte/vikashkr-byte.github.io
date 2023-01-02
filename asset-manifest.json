@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.80bfd238.css",
-    "main.js": "/static/js/main.537830f9.js",
+    "main.js": "/static/js/main.c32f391b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/sepora_india_long_screenshot.png": "/static/media/sepora_india_long_screenshot.22ee36b9e3fed057125e.png",
     "static/media/zee_5_long_screenshot.png": "/static/media/zee_5_long_screenshot.36a5026353a11b1eba77.png",
     "static/media/zappos_long_screenshot.png": "/static/media/zappos_long_screenshot.bcc771498f05fc3b356e.png",
     "static/media/about_me_dark.gif": "/static/media/about_me_dark.e7a7b7fc47bbc1bbedf8.gif",
     "static/media/about_me_light.gif": "/static/media/about_me_light.2361c6bb21ac3c38839e.gif",
-    "static/media/Vikash Kumar Resume.pdf": "/static/media/Vikash Kumar Resume.ad8f93a1ffeca9928d2a.pdf",
+    "static/media/Vikash Kumar Resume.pdf": "/static/media/Vikash Kumar Resume.6e288215fa6e7fdf3158.pdf",
     "static/media/React-icon.png": "/static/media/React-icon.81ed438b18e24116794d.png",
     "static/media/chakra-ui-bgless.png": "/static/media/chakra-ui-bgless.e4cb472ccaabf22affba.png",
     "static/media/vikashPortFolio24.png": "/static/media/vikashPortFolio24.f623b709aec36eefc7fc.png",
@@ -33,11 +33,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.80bfd238.css.map": "/static/css/main.80bfd238.css.map",
-    "main.537830f9.js.map": "/static/js/main.537830f9.js.map",
+    "main.c32f391b.js.map": "/static/js/main.c32f391b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80bfd238.css",
-    "static/js/main.537830f9.js"
+    "static/js/main.c32f391b.js"
   ]
 }
