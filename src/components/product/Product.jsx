@@ -23,7 +23,7 @@ const Product = ({
   // }
   // console.log("project_details:", project_details);
   return (
-    <div className="p" key={image} >
+    <div className="p" key={image}>
       <div className="p-wrapper">
         <div className="p-browser">
           <div className="p-circle red" back></div>
@@ -79,12 +79,24 @@ const Product = ({
               {single_point.value}
             </p>
           ))}
+          <div className="p-details-tech-stack">
+            <p className="p-details-project_details">Tech Stack Used :</p>
+            <div className="p-details-tech-stack-box">
+              {stack.map((item) => (
+                <img
+                  src={item.image}
+                  alt="image"
+                  className="p-details-tech-stack-icons"
+                />
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* description */}
-        <hr />
+        {/* <hr /> */}
         {/* stack */}
-        <div className="p-details-tech-stack">
+        {/* <div className="p-details-tech-stack">
           <p className="p-details-project_details">Tech Stack Used :</p>
           <div className="p-details-tech-stack-box">
             {stack.map((item) => (
@@ -95,7 +107,7 @@ const Product = ({
               />
             ))}
           </div>
-        </div>
+        </div> */}
         {/* stack */}
       </div>
       {/* det box */}

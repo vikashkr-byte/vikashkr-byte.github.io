@@ -20,26 +20,13 @@ let totalcommitinfolight =
 let darkBackGround = "black";
 let lightBackGround = "white";
 const Stats = () => {
-  // const { theme } = useContext(ThemeProContext);
-  // console.log("theme:", theme);
-  // let darkmode;
-  // if (theme == "dark") {
-  //   darkmode = true;
-  // } else {
-  //   darkmode = false;
-  // }
+
   return (
     <div
       className="main_stat_div skilss section"
       id="gitstats"
       style={
-        // darkmode
-        //   ? {
-        //       backgroundColor: darkBackGround,
-        //       color: lightBackGround,
-        //       width: "100%",
-        //     }
-          // :
+  
            {
               backgroundColor: "rgb(250,250,250)",
               color: darkBackGround,

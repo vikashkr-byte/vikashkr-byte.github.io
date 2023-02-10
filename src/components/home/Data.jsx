@@ -6,7 +6,7 @@ const Data = () => {
       <h1 className="home__title">Vikash Kumar</h1>
       <h3 className="home__subtitle">MERN Developer</h3>
       <p className="home__description">I like learning new things.</p>
-      <a href="#contact" >
+      <a href="#contacts" >
         <button
           style={{
             position: "relative",
